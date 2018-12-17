@@ -21,4 +21,5 @@ class Patient
       app.doctor
     end
   end
+
 end
