@@ -13,7 +13,7 @@ class Genre
     Song.all.select do |track|
       track.genre == self
     end
-  end         
+  end
   def artists
     self.songs.collect do |song|
       song.artist
