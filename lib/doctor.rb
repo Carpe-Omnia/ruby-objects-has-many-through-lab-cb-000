@@ -13,7 +13,7 @@ class Doctor
     app = Appointment.new(patient, date, i)
   end
   def appointments
-    Appointment.select do |app|
+    Appointment.all.select do |app|
       app.doctor.name == @name
     end
   end
