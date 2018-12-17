@@ -1,4 +1,4 @@
-class appointment
+class Appointment
   @@all = []
   def all
     @@all
