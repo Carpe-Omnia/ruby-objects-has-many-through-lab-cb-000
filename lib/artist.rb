@@ -31,4 +31,4 @@ Genre.all.each do |genre|
   puts genre.name
 end
 puts jay_z.songs
-puts ninety_nine_problems.artist
+puts ninety_nine_problems.artist.name
