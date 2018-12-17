@@ -1,4 +1,5 @@
 class Doctor
+
   @@all = []
   def self.all
     @@all
@@ -20,5 +21,6 @@ class Doctor
     self.appointments.collect do |app|
       app.patient
     end
-  end     
+  end
+
 end
