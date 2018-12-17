@@ -13,4 +13,9 @@ class Artist
     track = Song.new(name, self, genre)
     @songs << track
   end
+  def genres
+    self.songs.collect do |track|
+      track.genre
+    end
+  end     
 end
