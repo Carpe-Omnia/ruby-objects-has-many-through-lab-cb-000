@@ -1,4 +1,4 @@
-require_relative "song.rb"
+
 require_relative "genre.rb"
 class Artist
   @@all = []
@@ -27,4 +27,6 @@ end
 jay_z = Artist.new("Jay-Z")
 rap = Genre.new("rap")
 ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
-puts Genre.all
+Genre.all.each do |genre|
+  puts genre.name
+end
