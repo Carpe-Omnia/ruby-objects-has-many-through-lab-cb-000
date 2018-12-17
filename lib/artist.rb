@@ -30,3 +30,5 @@ ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
 Genre.all.each do |genre|
   puts genre.name
 end
+puts jay_z.songs
+puts ninety_nine_problems.artist
