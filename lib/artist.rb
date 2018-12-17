@@ -13,6 +13,11 @@ class Artist
     track = Song.new(name, self, genre)
     @songs << track
   end
+  def songs
+    Song.all.select do |track|
+      track.artist == self
+    end
+  end
   def genres
     self.songs.collect do |track|
       track.genre
