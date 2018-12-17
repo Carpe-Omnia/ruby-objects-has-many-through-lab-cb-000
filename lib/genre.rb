@@ -1,7 +1,7 @@
 require "song.rb"
 class Genre
   @@all = []
-  def all
+  def self.all
     @@all
   end
   attr_accessor :name
@@ -19,4 +19,4 @@ class Genre
       song.artist
     end
   end
-end       
+end
