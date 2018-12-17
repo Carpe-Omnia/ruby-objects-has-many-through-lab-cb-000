@@ -24,3 +24,7 @@ class Artist
     end
   end
 end
+jay_z = Artist.new("Jay-Z")
+rap = Genre.new("rap")
+ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
+puts Genre.all
