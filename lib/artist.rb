@@ -1,5 +1,5 @@
-require "song.rb"
-require "genre.rb"
+require_relative "song.rb"
+require_relative "genre.rb"
 class Artist
   @@all = []
   def self.all
