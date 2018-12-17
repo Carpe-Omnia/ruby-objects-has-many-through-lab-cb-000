@@ -16,4 +16,9 @@ class Patient
       app.patient.name == @name
     end
   end
+  def doctors
+    self.appointments.collect do |app|
+      app.doctor
+    end
+  end
 end
