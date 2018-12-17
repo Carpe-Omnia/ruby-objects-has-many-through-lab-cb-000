@@ -1,6 +1,7 @@
 class Doctor
-@@all = []
-def self.all
-  @@all
-end
+  @@all = []
+  def self.all
+    @@all
+  end
+
 end
