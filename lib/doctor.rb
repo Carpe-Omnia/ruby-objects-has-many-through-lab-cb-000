@@ -13,7 +13,7 @@ class Doctor
   end
   def appointments
     Appointment.select do |app|
-      app.doctor == self
+      app.doctor.name == @name
     end
   end
 end
