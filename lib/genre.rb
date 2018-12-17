@@ -1,4 +1,4 @@
-require "song.rb"
+require_relative "song.rb"
 class Genre
   @@all = []
   def self.all
