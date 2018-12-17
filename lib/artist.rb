@@ -1,4 +1,5 @@
 require "song.rb"
+require "genre.rb"
 class Artist
   @@all = []
   def self.all
