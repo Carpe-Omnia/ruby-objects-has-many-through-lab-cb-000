@@ -1,3 +1,4 @@
+require "song.rb"
 class Artist
   @@all = []
   def self.all
@@ -17,5 +18,5 @@ class Artist
     self.songs.collect do |track|
       track.genre
     end
-  end     
+  end
 end
